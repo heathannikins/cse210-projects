@@ -19,7 +19,7 @@ class Program
 //        job1.DisplayDetails();
 //        job2.DisplayDetails();
 
-        Resume person1= new Resume();
+        Resume person1 = new Resume();
         person1._name = "Heather Kinsey";
         person1._jobs.Add(job1);
         person1._jobs.Add(job2);
