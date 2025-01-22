@@ -15,10 +15,10 @@ public class Entry
     {
         _date = DateTime.Now.ToString("MM/dd/yyyy");
         _promptText = _prompt;
-        Console.Write($"{_date} ");
+        //Console.Write($"{_date} ");
         _entryText = _userInput;
     }
-   public static void Display()
+   public void Display()
    {
        //Copilot on Google showed me how to get the date, and how to only do the date and not the time
        //DateOnly _date = DateOnly.FromDateTime(DateTime.Now);

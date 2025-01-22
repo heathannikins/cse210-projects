@@ -27,9 +27,9 @@ public class Journal
 
     public void DisplayAll()
     {
-        foreach (var entry in _entries)
+        foreach (Entry entry in _entries)
         {
-            Entry.Display();
+            entry.Display();
         }
     }
 
